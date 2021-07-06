@@ -80,4 +80,33 @@ h1{
     text-align: justify;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.recipe-card-1{
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
+    background-color: white ;
+    border: 20px solid white;
+    border-radius: 30px;
+    box-shadow: 20px 30px 40px gray;
+    
+    
+}
+
+.card-image img{
+    width: 100%;
+    
+}
+.card-title{
+    text-align: center;
+    
+}
+
+.card-description{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
