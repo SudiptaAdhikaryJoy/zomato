@@ -11,6 +11,10 @@ h1{
 .tomato-color{
     color: tomato;
 }
+.flexible-container{
+    display:flex;
+    margin-bottom: 150px;
+}
 
 .set-width{
     width: 50%;
@@ -23,16 +27,13 @@ h1{
 }
 
 .set-width img{
-    width: 90%;
-}
-
-.div-set-2 img{
-    width: 50%;
+    width: 70%;
     padding-left: 10%;
-
 }
 
-.div-set-2{
+
+
+#div-set-2{
     width: 50%;
     padding-left: 2%;
     text-align: justify;
