@@ -1,7 +1,31 @@
 body{
     font-family: 'Roboto',
     sans-serif;
-    padding: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    background-color: #333;
+    padding:0;
+    margin: 0;
+}
+
+.bar li{
+    box-sizing: border-box;
+    display: inline-block;
+    
+    
+    
+}
+
+.bar li a{
+    text-decoration: none;
+    color: rgb(221, 84, 84);
+    text-align: center;
+    display: inline-block;
+    padding: 30px 40px;
+    font-weight: 900;
+
 }
 
 h1{
@@ -51,7 +75,7 @@ h1{
     background-image: url(../images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
     margin-right: -30px;
-    margin-left: -20px;
+    margin-left: -30px;
    
 }
 
@@ -115,3 +139,27 @@ h1{
     text-align: center;
 
 }
+
+/* footer section */
+
+footer{
+    width: 100%;
+    border: 1px solid gray;
+    background-color: rgb(189, 70, 70);
+    padding: 50px 80px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+
+
+}
+
+.foot-title{
+    text-align: center;
+}
+
+.footer-desc {
+    text-align: center;
+    
+}
+    
+    
