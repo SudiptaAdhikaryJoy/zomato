@@ -1,9 +1,10 @@
+/* contact form body styling */
 body{
     background-image: url(../images/food/Project\ Cover6.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* form styling */
 form {
     background: rgba(191, 191, 228, 0.3);
     padding: 2.5rem 2.5rem;
@@ -12,7 +13,7 @@ form {
     margin: auto;
 
 }
-
+/* button styling */
 .submit-button {
     width: 100%;
     padding: 0.75rem;
