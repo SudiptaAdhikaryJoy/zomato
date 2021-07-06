@@ -72,3 +72,12 @@ h1{
     
 }
 
+#recipe-1{
+    text-align: center;
+}
+
+.recipe-para{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
