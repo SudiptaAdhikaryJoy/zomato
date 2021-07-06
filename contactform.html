@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./index.html">
+    <link rel="stylesheet" href="./CSS/style1.css">
+    
+</head>
+<body>
+    <form>
+        <label for="name">Name</label> <br>
+        <input type="text" id="name" name="name" placeholder="Enter name" required>      <br>  <br>
+        <label for="email">Email Address</label> <br>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>        <br> <br>
+        <label for="password">Password</label> <br> 
+        <input type="password" id="password" name="password" placeholder="Enter password" required> <br>        <br>
+        <label for="dropdown" id="dropdown"><b>Select Options:</b></label> <br>
+<select  id="dropdown" class="form-input">
+  <option value="home delivery">home delivery</option>
+  <option value="office delivery">office delivery</option>
+  <option value="Both">Both</option>
+</select>
+  
+       <br>
+        <p> <b>Address:</b></p>
+<textarea name="comments" id="" cols="30" rows="10" class="add" placeholder="enter your address"></textarea>
+<br> <br>    
+
+<a class="submit-button" href="/index.html"><button>Submit</button></a>
+
+    </form>
+</body>
+</html>

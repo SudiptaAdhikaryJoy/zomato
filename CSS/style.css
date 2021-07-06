@@ -8,15 +8,16 @@ ul{
     background-color: #333;
     padding:0;
     margin: 0;
+    margin-left: -5px;
 }
 
 .bar li{
     box-sizing: border-box;
     display: inline-block;
-    
-    
-    
 }
+    
+    
+    
 
 .bar li a{
     text-decoration: none;
@@ -74,8 +75,8 @@ h1{
     display:flex;
     background-image: url(../images/shapes/Frame\ 59.jpg);
     background-repeat: no-repeat;
-    margin-right: -30px;
-    margin-left: -30px;
+    
+    margin-left: -5px;
    
 }
 
@@ -146,15 +147,19 @@ footer{
     width: 100%;
     border: 1px solid gray;
     background-color: rgb(189, 70, 70);
-    padding: 50px 80px;
-    margin-left: -10px;
-    margin-bottom: -10px;
+    padding: 30px 50px;
+    margin-left: -2px;
+    margin-bottom: -5px;
 
 
 }
 
 .foot-title{
     text-align: center;
+}
+
+.footer-color{
+    color: orange;
 }
 
 .footer-desc {
